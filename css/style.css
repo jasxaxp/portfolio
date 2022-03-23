@@ -68,7 +68,7 @@ animations: bounceTop 5s ease-in-out infinite */
 
 
 h1, h2,h3,p{
-	color: white;
+	color:black;
 
 }
 
@@ -244,81 +244,12 @@ h1, h2,h3,p{
 	top: 0;
 	height: 100%;
 	width: 0%;
-	background-color:rgba(255,255,255,0.45);
+	background-color:rgba(182,157,191,0.45);
 	z-index: -1;
 	transition: width 0.3s ease;
 }
 
 
-.h3words2 {
-	color: #57557C;
-	background-color: rgba(255,255,255,0.45);
-	border: 5px solid rgba(255,255,255,0.40);
-	padding: 5px;
-	display: inline-block;
-	border-radius: 10px;
-	font-weight: 500;
-	
-}
-
-
-.wordswhiteblue2 {
-	color: black;
-	background-color: rgba(132,214,244,0.61);
-	border: 5px solid rgba(255,255,255,0.40);
-	padding: 5px;
-	display: inline-block;
-	border-radius: 10px;
-	font-weight: 500;
-	
-}
-
-.wordswhiteblue3 {
-	color: white;
-	background-color: #1E3A50;
-	border: 5px solid rgba(255,255,255,0.40);
-	padding: 5px;
-	display: inline-block;
-	border-radius: 10px;
-	font-weight: 500;
-	
-}
-
-
-.wordswhiteblue {
-	color: white;
-	background-color: #2596be;
-	border: 5px solid rgba(255,255,255,0.40);
-	padding: 8px;
-	display: inline-block;
-	border-radius: 10px;
-	font-weight: 500;
-	
-}
-
-
-.wordswhite {
-	color: white;
-	background-color: #57557C;
-	border: 5px solid rgba(255,255,255,0.40);
-	padding: 8px;
-	display: inline-block;
-	border-radius: 10px;
-	font-weight: 500;
-	
-}
-
-
-.wordswhite2 {
-	color: white;
-	background-color: #6B4876;
-	border: 5px solid rgba(255,255,255,0.40);
-	padding: 14px;
-	display: inline-block;
-	border-radius: 10px;
-	font-weight: 500;
-	
-}
 
 
 
@@ -413,24 +344,30 @@ ul li {
 	
 }
 
-.btn::before{
+.btn:before{
 	content: '';
 	postion: absolute;
 	left: 0;
 	top: 0;
 	height: 100%;
 	width: 0%;
-	background-color: #8781bd;
-	z-index: -1;
+	color: white;
+	background-color:rgba(149,101,168,0.45);
 	transisiton: width 0.3s ease;
 }
 
 
 .btn:hover::before{
 	width: 100%;
+	
 }
 
 .btn:hover{
+	background-color:rgba(149,101,168,0.45);
+	
+}
+
+.btn{
 	color: white;
 	background-color: #8781bd;
 	transisiton: width 0.3s ease;
@@ -460,12 +397,10 @@ Global Settings
 
 body {
 	min-height: 100vh;
-	background-image: linear-gradient(to bottom right, #b8b2eb,#ba93c7,  #8781bd);
 	font-size: 16px;
-	color:  #18293c;
+	color:  black;
 	line-height: 1.5;
 	overflow-x: hidden;
-	webkit-tap-highlight-color: transparent;
 	padding: 5vh 15px;
 	
 }
@@ -477,7 +412,6 @@ body::before{
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #cddc39;
 	z-index: -1;
 	opacity: 0.12; 
 }
@@ -536,22 +470,12 @@ section{
 }
 
 span.words {
-	color: white;
-	background: #472a4d;
 	padding: 10px;
 	padding-right: 18px;
 	display: inline-block;
 	border-radius: 30px;
 }
 
-.h3words {
-	color: white;
-	background: #57557C;
-	padding: 15px;
-	display: inline-block;
-	border-radius: 30px;
-	
-}
 
 
 
