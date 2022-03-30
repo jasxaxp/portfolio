@@ -1,5 +1,166 @@
 
-    @keyframes animate {
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+
+p{
+	font-family: 'Belleza', sans-serif;
+	font-size: 18px;
+}
+
+
+.background-black{
+	background-color: black;
+}
+
+.scroll-downs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: black;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
+
+
+
+
+.btn{
+	font-size: 18px;
+}
+
+.slide-right {
+  overflow: hidden;
+
+ 
+}
+
+.slide-right {
+  animation: 1.5s slide-right 2s forwards;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+}
+
+
+
+
+
+.slide-left {
+  overflow: hidden;
+
+ 
+}
+
+.slide-left{
+  animation: 1.5s slide-left 2s forwards;
+    transform:translateX(170%);
+}
+
+@keyframes slide-left {
+  to {
+    transform:translateX(0);
+  }
+}
+
+
+
+
+.slide-right2 {
+  animation: 3s slide-right 5s forwards;
+    transform:translateX(-100%);
+}
+
+
+
+
+.slide-left2{
+  animation: 3s slide-left 5s forwards;
+  transform:translateX(170%);
+}
+
+
+@font-face {
+    font-family: 'Recife';
+    src: local('Recife Display SemiBold'), local('Recife-Display-SemiBold'),
+        url('RecifeDisplay-SemiBold.woff2') format('woff2'),
+        url('RecifeDisplay-SemiBold.woff') format('woff'),
+        url('RecifeDisplay-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+h1, h2,h3, h4, h5, h6,a {
+	font-family: Recife,sans-serif; 
+}
+
+footer p{
+	font-family: Recife,sans-serif; 
+}
+
+.zoom:hover
+    {
+	 -ms-transform: scale(1.5); /* IE 9 */
+     -webkit-transform: scale(1.5); /* Safari 3-8 */
+     transform: scale(1.5); 
+
+}
+
+
+.zoom{
+  transition: transform .2s;
+}
+
+.pic:hover{
+	opacity: .6;
+}
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes animate {
   
         0% {
             content: "Graphic Design";
