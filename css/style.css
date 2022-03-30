@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
 
 
-p{
+p, form{
 	font-family: 'Belleza', sans-serif;
 	font-size: 18px;
 }
@@ -664,7 +664,7 @@ span.words {
 
 .container-500 {
 	width: 460px;
-	margin: 0 auto;
+	margin: auto;
 	
 }
 
