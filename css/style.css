@@ -8,6 +8,10 @@ p, form{
 	font-size: 18px;
 }
 
+.ld{
+  background-color: #8781bd;
+ }
+
 
 .scroll-downs {
 
@@ -558,7 +562,6 @@ body {
 	color:  black;
 	line-height: 1.5;
 	overflow-x: hidden;
-	padding: 5vh 15px;
 	
 }
 
