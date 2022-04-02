@@ -1,5 +1,6 @@
 
 
+
 @import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
 
 
@@ -8,13 +9,28 @@ p, form{
 	font-size: 18px;
 }
 
+
+.kdrama{
+	background-color: #B7E1FC;
+}
+
+
+
+.kdrama2{
+	background-color: #B66D60;
+}
+
+
 .ld{
   background-color: #8781bd;
- }
+
+   
+}
+
+
 
 
 .scroll-downs {
-
   top: 0;
   right: 0;
   bottom: 0;
@@ -23,6 +39,11 @@ p, form{
   
   width :34px;
   height: 55px;
+}
+
+
+.mousepad{
+	padding-top: 40px;
 }
 .mousey {
   width: 3px;
@@ -147,20 +168,9 @@ footer p{
 	opacity: .6;
 }
  
-    
 
 
-
-
-
-
-
-
-
-
-
-
-@keyframes animate {
+    @keyframes animate {
   
         0% {
             content: "Graphic Design";
@@ -260,11 +270,10 @@ h1, h2,h3,p{
 }
 
 
-
 .circle-1 {
 	height: 60px;
 	width: 60px;
-	background-color: #8781bd;
+	background-color: #7d5b8a;
 	border-radius: 50%;
 	opacity: 0.3;
 	left: 65%;
@@ -278,7 +287,7 @@ h1, h2,h3,p{
 .circle-2 {
 	height: 80px;
 	width: 80px;
-	background-color: #8781bd;
+	background-color: #7d5b8a;
 	border-radius: 50%;
 	opacity: 0.3;
 	left: 80%;
@@ -293,7 +302,7 @@ h1, h2,h3,p{
 .circle-3 {
 	height: 50px;
 	width: 50px;
-	background-color: #8781bd;
+	background-color:#7d5b8a;  
 	border-radius: 50%;
 	opacity: 0.3;
 	left: 57%;
@@ -307,7 +316,7 @@ h1, h2,h3,p{
 .circle-4 {
 	height: 130px;
 	width: 130px;
-	background-color: #8781bd;
+	background-color: #7d5b8a;
 	border-radius: 50%;
 	opacity: 0.3;
 	left: 155%;
@@ -322,7 +331,7 @@ h1, h2,h3,p{
 .circle-5 {
 	height: 90px;
 	width: 90px;
-	background-color: #8781bd;
+	background-color: #7d5b8a;
 	border-radius: 50%;
 	opacity: 0.3;
 	left: 100%;
@@ -338,7 +347,7 @@ h1, h2,h3,p{
 .circle-6 {
 	height: 90px;
 	width: 90px;
-	background-color: #8781bd;
+	background-color: #7d5b8a;
 	border-radius: 50%;
 	opacity: 0.3;
 	left: 140%;
@@ -473,6 +482,21 @@ ul li {
 	padding-right: 10px;
 }
 
+
+.btn3{
+	line-height: 1.5;
+	background-color:#57557C;
+	border: 1px solid rgba(255,255,255,0.40);
+	padding: 30px 40px;
+	display: inline-block;
+	border-radius: 30px;
+	color: #57557C;
+	font-weight: 500;
+	position: relative; 
+	overflow: hidden;
+	
+}
+
 .btn {
 	line-height: 1.5;
 	background-color:rgba(255,255,255,0.50);
@@ -491,19 +515,6 @@ ul li {
 }
 
 
-.btn3{
-	line-height: 1.5;
-	background-color:#57557C;
-	border: 1px solid rgba(255,255,255,0.40);
-	padding: 30px 40px;
-	display: inline-block;
-	border-radius: 30px;
-	color: #57557C;
-	font-weight: 500;
-	position: relative; 
-	overflow: hidden;
-	
-}
 
 .btn:before{
 	content: '';
@@ -562,6 +573,7 @@ body {
 	color:  black;
 	line-height: 1.5;
 	overflow-x: hidden;
+
 	
 }
 
@@ -582,17 +594,7 @@ img {
 }
 
 
-section{
-	background-color: rgba(255,255,255,0.25);
-	border: 1px solid rgba(255,255,255,0.40);
-	min-height: 90vh;
-	border-radius: 30px;
-}
-.main {
-	max-width: 1200px; 
-	margin: auto;
-		
-}
+
 
 .custom-container-1{
 	padding: 0 40px;
