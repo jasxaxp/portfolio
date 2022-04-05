@@ -198,27 +198,27 @@ footer p{
     @keyframes animate {
   
         0% {
-            content: "Graphic Design";
+            content: "Some of my skills include: Graphic Design";
         }
   
         20% {
-            content: "Graphic Design";
+            content: "Some of my skills include: Graphic Design";
         }
   
         40% {
-            content: "UX/UI Desgin";
+            content: "Some of my skills include: UX/UI Desgin";
         }
 		
 		60% {
-            content: "Web UX/UI Dev";
+            content: "Some of my skills include: Web UX/UI Dev";
         }
 		
 		80% {
-            content: "Visual Design";
+            content: "Some of my skills include: Visual Design";
         }
 		
 		100% {
-            content: "Web Design";
+            content: "Some of my skills include: Web Design";
         }
     }
 
